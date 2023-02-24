@@ -32,7 +32,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: coffeez/234-deploylab-frontend:latest
+          tags: coffeez/234-deploylab-frontend-prod:latest
       -
         name: prepare the docker-compose-prod run
         run: |

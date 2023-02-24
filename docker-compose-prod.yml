@@ -1,6 +1,6 @@
 version: '3.3'
 services:
   frontend:
-    image: coffeez/234-deploylab-frontend:latest
+    image: coffeez/234-deploylab-frontend-prod:latest
     ports:
-      - "8086:80"
+      - "9999:80"
